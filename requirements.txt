@@ -1,0 +1,12 @@
+# adapted from https://raw.githubusercontent.com/graphite-project/carbon/0.9.15/requirements.txt
+Twisted>=15.5.0
+
+# adapted from https://raw.githubusercontent.com/graphite-project/graphite-web/0.9.15/requirements.txt
+Django>=1.4,<1.9
+python-memcached==1.57
+txAMQP>=0.6.2
+django-tagging>=0.4.1
+gunicorn>=19.4.5
+pytz
+cairocffi
+whitenoise
